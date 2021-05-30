@@ -35,7 +35,7 @@ const HomePage = () => {
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Age</th>
-                        <th>Street</th>
+                        <th>Address</th>
                         <th>Email</th>
                     </tr>
                 </thead>
