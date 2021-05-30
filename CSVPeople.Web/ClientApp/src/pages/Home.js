@@ -23,10 +23,11 @@ const HomePage = () => {
     return (
         <>
             <div className="row">
-                <div className="col-md-6  offset-md-3">
-                    <button className="btn btn-danger btn-block" onClick={ onDeleteClick}>Delete All</button>
+                <div className="col-md-6  offset-md-3 mt-4">
+                    <button className="btn btn-danger btn-block btn-lg" onClick={ onDeleteClick}>Delete All</button>
                 </div>
             </div>
+            <br />
             <br/>
             <table className="table table-hover table-bordered table-stripe">
                 <thead>
