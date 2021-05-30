@@ -24,7 +24,7 @@ const HomePage = () => {
         <>
             <div className="row">
                 <div className="col-md-6  offset-md-3">
-                    <button className="btn btn-primary btn-block" onClick={ onDeleteClick}>Delete All</button>
+                    <button className="btn btn-danger btn-block" onClick={ onDeleteClick}>Delete All</button>
                 </div>
             </div>
             <br/>
